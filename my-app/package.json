@@ -5,12 +5,20 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-search-input": "^0.11.3"
+  },
+  "peerDependencies": {
+    "react": "~0.14.8 || ^15.0.0",
+    "react-dom": "~0.14.8 || ^15.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.2"
   }
 }
